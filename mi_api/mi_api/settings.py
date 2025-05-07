@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-z)f6y0knz!#ehaah@4c&dyf#t%7!72*1u%e$c6byv+1t@k%_e+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['rest-tymg.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['prueba-miapi.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
