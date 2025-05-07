@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'productos',
     'rest_framework.authtoken', 
+    'corsheaders',
 ]
 
 
@@ -50,6 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'https://prueba-miapi.onrender.com,
 ]
 
 ROOT_URLCONF = 'mi_api.urls'
