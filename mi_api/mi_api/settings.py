@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'https://prueba-miapi.onrender.com,
+    'https://prueba-miapi.onrender.com',
 ]
 
 ROOT_URLCONF = 'mi_api.urls'
