@@ -24,8 +24,6 @@ class ProductoViewSet(viewsets.ModelViewSet):
     authentication_classes = [TokenAuthentication]
     permission_classes = [IsAuthenticated] 
     
-
-
 @api_view(['POST'])
 def create_multiple_productos(request):
     """
@@ -38,3 +36,5 @@ def create_multiple_productos(request):
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
     return Response({"error": "Se esperaba una lista de productos"}, status=status.HTTP_400_BAD_REQUEST)
+
+
