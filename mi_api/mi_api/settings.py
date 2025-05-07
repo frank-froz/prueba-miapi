@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'mi_api.wsgi.application'
+WSGI_APPLICATION = 'mi_api.mi_api.wsgi.application'
 
 
 # Database
