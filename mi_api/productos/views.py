@@ -24,6 +24,7 @@ class ProductoViewSet(viewsets.ModelViewSet):
     authentication_classes = [TokenAuthentication]
     permission_classes = [IsAuthenticated] 
     
+    
 @api_view(['POST'])
 def create_multiple_productos(request):
     """
